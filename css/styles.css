@@ -1,0 +1,38 @@
+.fields{
+    border: solid #000;
+    border-left:1px;
+    border-top: 1px;
+    overflow: hidden;
+    margin: 20px;
+    display: inline-block;
+}
+
+.fields > div {
+    float:left;
+    width:30px;
+    height:30px;
+    border: solid #000;
+    border-right: 1px;
+    border-bottom: 1px;
+    text-align: center;
+    padding-top: 2px;
+    box-sizing: border-box;
+}
+
+.fields > div[data-game='fruit'] {
+    background: red;
+}
+
+.fields > div[data-game='snake'] {
+    background: deepskyblue;
+}
+
+.first-column{
+    clear:both;
+}
+
+i{
+    color:white;
+    font-size: 20px;
+
+}
